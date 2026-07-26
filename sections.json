@@ -1,102 +1,48 @@
 {
   "sections": [
-    {
-      "id": 1,
-      "title": "Hero 1",
-      "category": "Hero",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Hero 2",
-      "category": "Hero",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero2.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Hero 3",
-      "category": "Hero",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Hero 4",
-      "category": "Hero",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero4.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Hero 5",
-      "category": "Hero",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero5.jpg"
-    },
 
-    {
-      "id": 6,
-      "title": "About 1",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about1.jpg"
-    },
-    {
-      "id": 7,
-      "title": "About 2",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about2.jpg"
-    },
-    {
-      "id": 8,
-      "title": "About 3",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about3.jpg"
-    },
-    {
-      "id": 9,
-      "title": "About 4",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about4.jpg"
-    },
-    {
-      "id": 10,
-      "title": "About 5",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about5.jpg"
-    },
-    {
-      "id": 11,
-      "title": "About 6",
-      "category": "About",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about6.jpg"
-    },
+    { "id": 1, "title": "Hero 1", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero1.jpg" },
+    { "id": 2, "title": "Hero 2", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero2.jpg" },
+    { "id": 3, "title": "Hero 3", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero3.jpg" },
+    { "id": 4, "title": "Hero 4", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero4.jpg" },
+    { "id": 5, "title": "Hero 5", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero5.jpg" },
+    { "id": 6, "title": "Hero 21", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero21.jpg" },
+    { "id": 7, "title": "Hero 42", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero42.jpg" },
+    { "id": 8, "title": "Hero 54", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero54.jpg" },
+    { "id": 9, "title": "Hero 71", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero71.jpg" },
+    { "id": 10, "title": "Hero 82", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero82.jpg" },
+    { "id": 11, "title": "Hero 94", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero94.jpg" },
+    { "id": 12, "title": "Hero 112", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero112.jpg" },
+    { "id": 13, "title": "Hero 377", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero377.jpg" },
+    { "id": 14, "title": "Hero 644", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero644.jpg" },
+    { "id": 15, "title": "Hero 1044", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero1044.jpg" },
+    { "id": 16, "title": "Hero 1155", "category": "Hero", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero1155.jpg" },
 
-    {
-      "id": 12,
-      "title": "Review 1",
-      "category": "Reviews",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review1.jpg"
-    },
-    {
-      "id": 13,
-      "title": "Review 2",
-      "category": "Reviews",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review2.jpg"
-    },
-    {
-      "id": 14,
-      "title": "Review 3",
-      "category": "Reviews",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review3.jpg"
-    },
-    {
-      "id": 15,
-      "title": "Review 4",
-      "category": "Reviews",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review4.jpg"
-    },
-    {
-      "id": 16,
-      "title": "Review 5",
-      "category": "Reviews",
-      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review5.jpg"
-    }
+    { "id": 17, "title": "About 1", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about1.jpg" },
+    { "id": 18, "title": "About 2", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about2.jpg" },
+    { "id": 19, "title": "About 3", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about3.jpg" },
+    { "id": 20, "title": "About 4", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about4.jpg" },
+    { "id": 21, "title": "About 5", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about5.jpg" },
+    { "id": 22, "title": "About 6", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about6.jpg" },
+    { "id": 23, "title": "About 14", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about14.jpg" },
+    { "id": 24, "title": "About 87", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about87.jpg" },
+    { "id": 25, "title": "About 188", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about188.jpg" },
+    { "id": 26, "title": "About 1444", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about1444.jpg" },
+    { "id": 27, "title": "About 14444", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about14444.jpg" },
+    { "id": 28, "title": "About 1454", "category": "About", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/About%20us/about1454.jpg" },
+
+    { "id": 29, "title": "Review 1", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review1.jpg" },
+    { "id": 30, "title": "Review 2", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review2.jpg" },
+    { "id": 31, "title": "Review 3", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review3.jpg" },
+    { "id": 32, "title": "Review 4", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review4.jpg" },
+    { "id": 33, "title": "Review 5", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review5.jpg" },
+    { "id": 34, "title": "Review 44", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review44.jpg" },
+    { "id": 35, "title": "Review 254", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review254.jpg" },
+    { "id": 36, "title": "Review 477", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review477.jpg" },
+    { "id": 37, "title": "Review 5444", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review5444.jpg" },
+    { "id": 38, "title": "Review 6877", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review6877.jpg" },
+    { "id": 39, "title": "Review 39555", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review39555.jpg" },
+    { "id": 40, "title": "Review 74445", "category": "Reviews", "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Reviews/review74445.jpg" }
+
   ]
 }

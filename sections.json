@@ -4,7 +4,31 @@
       "id": 1,
       "title": "Hero 1",
       "category": "Hero",
-      "image": "Hero/hero1.jpg"
+      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hero 2",
+      "category": "Hero",
+      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Hero 3",
+      "category": "Hero",
+      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Hero 4",
+      "category": "Hero",
+      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hero 5",
+      "category": "Hero",
+      "image": "https://raw.githubusercontent.com/rwtrohan25/section-library/main/Hero/hero5.jpg"
     }
   ]
 }

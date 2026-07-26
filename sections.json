@@ -1,0 +1,10 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Hero 1",
+      "category": "Hero",
+      "image": "Hero/hero1.jpg"
+    }
+  ]
+}

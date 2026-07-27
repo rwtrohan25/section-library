@@ -1,11 +1,12 @@
-name: Update sections.json
+name: Auto Update sections.json
 
 on:
   push:
-    paths:
-      - "Hero/**"
-      - "About us/**"
-      - "Reviews/**"
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -15,7 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -27,6 +28,12 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
           git add sections.json
-          git diff --cached --quiet || git commit -m "Auto update sections.json"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Auto update sections.json"
+            git push
+          fi

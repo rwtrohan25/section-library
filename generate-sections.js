@@ -1,39 +1,52 @@
 const fs = require("fs");
 const path = require("path");
 
-const repo = ".";
+const REPO = "rwtrohan25";
+const BRANCH = "main";
 
-const folders = [
-  { name: "Hero", category: "Hero" },
-  { name: "About us", category: "About us" },
-  { name: "Reviews", category: "Reviews" },
-];
-
-let id = 1;
 let sections = [];
+let id = 1;
 
-folders.forEach((folder) => {
-  const folderPath = path.join(repo, folder.name);
+// Repository ke root ke saare folders padho
+const folders = fs
+  .readdirSync(".")
+  .filter((folder) => {
+    if (!fs.statSync(folder).isDirectory()) return false;
 
-  if (!fs.existsSync(folderPath)) return;
+    // Hidden folders ignore karo
+    if (folder.startsWith(".")) return false;
+
+    // node_modules ignore
+    if (folder === "node_modules") return false;
+
+    return true;
+  });
+
+for (const folder of folders) {
 
   const files = fs
-    .readdirSync(folderPath)
-    .filter((file) => /\.(jpg|jpeg|png|webp)$/i.test(file));
+    .readdirSync(folder)
+    .filter(file => /\.(jpg|jpeg|png|webp)$/i.test(file))
+    .sort();
 
-  files.forEach((file) => {
+  for (const file of files) {
+
     sections.push({
       id: id++,
       title: path.parse(file).name,
-      category: folder.category,
-      image: `https://raw.githubusercontent.com/rwtrohan25/section-library/main/${encodeURIComponent(folder.name)}/${encodeURIComponent(file)}`
+      category: folder,
+      image:
+        `https://raw.githubusercontent.com/${REPO}/section-library/${BRANCH}/` +
+        `${encodeURIComponent(folder)}/${encodeURIComponent(file)}`
     });
-  });
-});
+
+  }
+
+}
 
 fs.writeFileSync(
   "sections.json",
   JSON.stringify({ sections }, null, 2)
 );
 
-console.log("sections.json updated!");
+console.log(`Generated ${sections.length} sections.`);

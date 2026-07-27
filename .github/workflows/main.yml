@@ -1,0 +1,32 @@
+name: Update sections.json
+
+on:
+  push:
+    paths:
+      - "Hero/**"
+      - "About us/**"
+      - "Reviews/**"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate sections.json
+        run: node generate-sections.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add sections.json
+          git diff --cached --quiet || git commit -m "Auto update sections.json"
+          git push
